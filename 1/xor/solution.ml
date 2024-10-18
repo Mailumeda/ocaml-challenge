@@ -1,4 +1,4 @@
-let xor a b = not(a && b);; (*soluzione con connettivi logici*)
+let xor a b = (a &&(not b)) || (b && (not a));; (*soluzione con connettivi logici*)
 
 let xor1 x y = match x, y with (*soluzione con pattern matching (switch case)*)
     | true, true | false, false -> false
