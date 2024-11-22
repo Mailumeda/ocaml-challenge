@@ -7,4 +7,3 @@ let isLecture d c = if((c = ALF) && ((d = Tu) || (d = Th) || (d = Fr)))
 else if((c = LIP) && ((d = We) || (d = Th)))
   then true
 else false;;
-
